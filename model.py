@@ -34,7 +34,7 @@ def find_features(tweet):
 
 
 from keras.models import load_model
-new_model = load_model("rnn_classifier.h5")
+new_model = load_model("ann_classifier.h5")
 
 def ret_probabilities(tweet):
     features = find_features(tweet)
